@@ -43,7 +43,7 @@ type Legislator struct {
 	TargetLevel        string `json:"target_level"`
 	Photo              string `json:"photo"`
 	Chamber            string `json:"chamber"`
-	OverallStance      string `json:"overall_stance"`
+	OverallStance      string `json:"immigration_stance"`
 	ImmigrationStances []struct {
 		Issue    string `json:"issue"`
 		Position string `json:"position"`
